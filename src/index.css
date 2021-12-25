@@ -161,7 +161,7 @@ img {
   margin-bottom: var(--mb-2);
 }
 .home__scroll {
-  /* display: none; */
+  display: none;
 }
 .home__scroll-button {
   color: var(--first-color);
@@ -190,12 +190,24 @@ img {
   border-radius: 8px;
   font-weight: var(--font-medium);
 }
+.button--small {
+  padding: 0.75rem 1rem;
+}
+.button--link {
+  padding: 0;
+  background-color: transparent;
+  color: var(--first-color);
+}
 .button:hover {
   background-color: var(--first-color-alt);
 }
-.massageIcon {
+.button__icon {
   margin-left: 5px;
   transition: 0.5s;
+}
+.button--flex {
+  display: inline-flex;
+  align-items: center;
 }
 /* show menu */
 
@@ -208,13 +220,169 @@ img {
 /*==================== BUTTONS ====================*/
 
 /*==================== ABOUT ====================*/
+.about__image {
+  width: 200px;
+  height: 200px;
+  border-radius: 0.5rem;
+  justify-self: center;
+  align-self: center;
+}
+.about__description {
+  text-align: center;
+  margin-bottom: var(--mb-2-5);
+}
+.about__info {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: var(--mb-2-5);
+}
+.about__info-title {
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+}
+.about__info-name {
+  font-size: var(--smaller-font-size);
+}
+.about__info-title,
+.about__info-name {
+  display: block;
+  text-align: center;
+}
+.about__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /*==================== SKILLS ====================*/
+.skills__icon,
+.skills__arrow {
+  width: 2rem;
+  height: 2rem;
+  color: var(--first-color);
+}
+.skills__arrow {
+  margin-left: auto;
+  transition: 0.5s;
+}
+.skills__icon {
+  margin-right: var(--mb-0-75);
+}
+.skills__title {
+  font-size: var(--h3-font-size);
+}
+.skills__list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  row-gap: 10px;
+  padding-left: 2.7rem;
+  column-gap: 10px;
+}
+.skills__name {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  letter-spacing: 1px;
+  width: fit-content;
+  padding: 0 8px;
+  height: 37px;
+  background-color: orange;
+  color: white;
+  margin-bottom: 0;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.skills__container {
+  row-gap: 0;
+}
+.skills__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--mb-2-5);
+  cursor: pointer;
+}
 /*==================== QUALIFICATION ====================*/
-
+.qualification__tabs {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: var(--mb-2);
+}
+.qualification__button:hover {
+  color: var(--first-color);
+}
+.qualification__data {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  column-gap: 1.25rem;
+}
+.qualification-title {
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+}
+.qualification-subtitle {
+  display: inline-block;
+  font-size: var(--smaller-font-size);
+  margin-bottom: var(--mb-1);
+}
+.qualification__rounder {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: var(--first-color);
+}
+.qualification__line {
+  width: 1px;
+  height: 100%;
+  display: block;
+  background-color: var(--first-color);
+  transform: translate(6px, -7px);
+}
 /*==================== SERVICES ====================*/
-
+.services-title {
+  font-size: var(--h1-font-size);
+  text-align: center;
+}
+.services-subtitle {
+  text-align: center;
+  font-size: var(--small-font-size);
+}
+.services__container {
+  gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+.services__content {
+  position: relative;
+  background-color: var(--container-color);
+  padding: 3.5rem 0.5rem 1.25rem 1.5rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+}
+.services__content:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+.services__icon {
+  display: block;
+  font-size: 1.5rem;
+  color: var(--first-color);
+  margin-bottom: var(--mb-1);
+}
+.services__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
+  font-weight: var(--font-medium);
+}
+.services__button {
+  cursor: pointer;
+  font-size: var(--small-font-size);
+}
 /* Active Modal */
 
 /*==================== PORTFOLIO ====================*/

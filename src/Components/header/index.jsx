@@ -19,40 +19,40 @@ const Header = () => {
                     <ul className='nav__list grid'>
                         <li className='nav__item'>
                             <a href='#home' className='nav__link' onClick={linkAction}>
-                                <i class="nav__icon uil uil-estate"></i> Home
+                                <i className="nav__icon uil uil-estate"></i> Home
                             </a>
                         </li>
                         <li className='nav__item'>
-                            <a href='#user' className='nav__link' onClick={linkAction}>
-                                <i class="nav__icon uil uil-user"></i> User
+                            <a href='#about' className='nav__link' onClick={linkAction}>
+                                <i className="nav__icon uil uil-user"></i> About
                             </a>
                         </li><li className='nav__item'>
                             <a href='#skills' className='nav__link' onClick={linkAction}>
-                                <i class="nav__icon uil uil-file-alt"></i> Skills
+                                <i className="nav__icon uil uil-file-alt"></i> Skills
                             </a>
                         </li>
                         <li className='nav__item'>
                             <a href='#service' className='nav__link' onClick={linkAction}>
-                                <i class="nav__icon uil uil-briefcase-alt"></i> service
+                                <i className="nav__icon uil uil-briefcase-alt"></i> service
                             </a>
                         </li>
                         <li className='nav__item'>
                             <a href='#portfolio' className='nav__link' onClick={linkAction}>
-                                <i class="nav__icon uil uil-scenery"></i> Portfolio
+                                <i className="nav__icon uil uil-scenery"></i> Portfolio
                             </a>
                         </li>
                         <li className='nav__item'>
                             <a href='#contact' className='nav__link' onClick={linkAction}>
-                                <i class="nav__icon uil uil-message"></i> Contact me
+                                <i className="nav__icon uil uil-message"></i> Contact me
                             </a>
                         </li>
 
                     </ul>
-                    <i class="uil uil-times nav__close" id='nav-close' onClick={onClose}></i>
+                    <i className="uil uil-times nav__close" id='nav-close' onClick={onClose}></i>
                 </div>
                 <div className='nav__btns '>
                     <div onClick={onToggle} className='nav__toggle' id='nav-toggle'>
-                        <i class="uil uil-apps"></i>
+                        <i className="uil uil-apps"></i>
                     </div>
                 </div>
             </nav>
