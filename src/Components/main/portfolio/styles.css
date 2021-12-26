@@ -1,0 +1,28 @@
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  /* content: ""; */
+  font-size: 1rem;
+}
+.mySwiper {
+  width: 90%;
+}
+.swiper-button-prev {
+  left: -0.5rem;
+  font-weight: 800;
+}
+.swiper-button-next {
+  right: -0.5rem;
+  font-weight: 800;
+}
+.swiper-button-prev {
+  left: -0.5rem;
+}
+.swiper-button-next {
+  right: -0.5rem;
+}
+.swiper-horizontal > .swiper-pagination-bullets {
+  bottom: -2.5rem !important;
+}
+.swiper-pagination-bullets-active {
+  background-color: red;
+}

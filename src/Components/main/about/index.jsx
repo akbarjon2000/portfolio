@@ -9,7 +9,9 @@ const About = () => {
             <h2 className='section-title'>About me</h2>
             <span className='section-subtitle'>My Introduction</span>
             <div className='about__container container grid'>
-                <img src='./myPhoto.png' className='about__image' alt="myphoto" />
+                <div className='about__image'>
+                    <img src='./photo3.png' alt="myphoto" />
+                </div>
                 <div className='about__data'>
                     <p className='about__description'>
                         I am a front end developer with

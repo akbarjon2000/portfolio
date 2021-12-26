@@ -11,7 +11,7 @@ const Skills = () => {
             <h2 className='section-title'>Skills</h2>
             <span className='section-subtitle'>My technical skills</span>
             <div className='skills__container container grid'>
-                <div>
+                <div className='myskills'>
                     {obj.map((value) => (
                         <MySkills key={nanoid(3)} value={value} />
                     ))}

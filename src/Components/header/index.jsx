@@ -11,9 +11,14 @@ const Header = () => {
     const linkAction = () => {
         setActive(false);
     }
+    const onScroll = () => {
+        console.log("scrolled")
+    }
     return (
-        <Container className='header' id='header' active={active}>
-            <nav className='nav container'>
+
+
+        <Container className='header scroll-header' id='header' active={active} >
+            <nav className='nav container' >
                 <a href='#' className='nav__logo'>Akbarjon</a>
                 <div className='nav__menu' id='nav-menu' >
                     <ul className='nav__list grid'>
@@ -51,12 +56,15 @@ const Header = () => {
                     <i className="uil uil-times nav__close" id='nav-close' onClick={onClose}></i>
                 </div>
                 <div className='nav__btns '>
+                    {/* <i className="uil uil-moon change-theme"></i> */}
                     <div onClick={onToggle} className='nav__toggle' id='nav-toggle'>
                         <i className="uil uil-apps"></i>
                     </div>
                 </div>
             </nav>
         </Container>
+
+
     )
 }
 

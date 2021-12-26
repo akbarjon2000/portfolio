@@ -5,6 +5,8 @@ import About from './about'
 import Skills from './skills'
 import Qualifications from './qualifications'
 import Services from './services'
+import Portfolio from './portfolio'
+import Contact from './contact'
 const Main = () => {
     return (
         <Container>
@@ -13,6 +15,8 @@ const Main = () => {
             <Skills />
             <Qualifications />
             <Services />
+            <Portfolio />
+            <Contact />
         </Container >
     )
 }

@@ -1,0 +1,47 @@
+import React from 'react'
+
+const Footer = () => {
+    return (
+        <>
+
+            <div className='footer'>
+                <div className='footer__bg'>
+                    <div className='footer__container container grid'>
+                        <div>
+                            <h1 className='footer__title'> Akbarjon</h1>
+                            <p className='footer__subtitle'>Frontend Developer</p>
+                        </div>
+                        <ul className='footer__links'>
+                            <li>
+                                <a className='footer__link' href='#service'>Services</a>
+                            </li>
+                            <li>
+                                <a className='footer__link' href='#portfolio'>Portfolio</a>
+                            </li>
+                            <li>
+                                <a className='footer__link' href='#contact'>Conatactme</a>
+                            </li>
+                        </ul>
+                        <div className='footer__socials'>
+                            <a className='footer__social' href='https://telegram.org/'>
+                                <i className="uil uil-telegram"></i>
+                            </a>
+                            <a className='footer__social' href='https://www.instagram.com/akbarjonabdulkhamidov/'>
+                                <i className="uil uil-instagram"></i>
+                            </a>
+                            <a className='footer__social' href='https://twitter.com/Akbarjo18812608'>
+                                <i class="uil uil-twitter-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p className='footer__copy'>&#169; Akbarjon. All Rights Reserved</p>
+                </div>
+            </div>
+            {/* <a href='#' className='scrollup'>
+                <i class="uil uil-arrow-up scroll__up-icon"></i>
+            </a> */}
+        </>
+    )
+}
+
+export default Footer
