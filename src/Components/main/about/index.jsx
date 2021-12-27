@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container } from './style'
+import { ReactComponent as Download } from "../../../assets/icons/import.svg"
 
 const About = () => {
     return (
@@ -38,7 +39,7 @@ const About = () => {
                     </div>
                     <div className='about__buttons'>
                         <a download="" href='./developerResume.pdf' className='button button--flex'>
-                            Download CV <i className="uil uil-import button__icon"></i>
+                            Download CV <Download className="button__icon" style={{ width: "20px" }} />
                         </a>
                     </div>
                 </div>

@@ -1,4 +1,9 @@
 import React from 'react'
+import { ReactComponent as Map } from "../../../assets/icons/map-marker.svg"
+import { ReactComponent as Send } from "../../../assets/icons/send.svg"
+import { ReactComponent as Tel } from "../../../assets/icons/tel.svg"
+import { ReactComponent as Email } from "../../../assets/icons/envelope.svg"
+import { ReactComponent as Geo } from "../../../assets/icons/geo-alt.svg"
 
 const Contact = () => {
     return (
@@ -8,7 +13,7 @@ const Contact = () => {
             <div className='contact__container container grid'>
                 <div>
                     <div className='contact__info'>
-                        <i className="uil uil-phone-alt contact__icon"></i>
+                        <Tel className=" contact__icon"></Tel>
 
                         <div>
                             <h3 className='contact__title'>Call </h3>
@@ -17,7 +22,7 @@ const Contact = () => {
                     </div>
 
                     <div className='contact__info'>
-                        <i className="uil uil-envelope contact__icon"></i>
+                        <Email className=" contact__icon"></Email>
 
                         <div>
                             <h3 className='contact__title'>Email </h3>
@@ -26,7 +31,8 @@ const Contact = () => {
                     </div>
 
                     <div className='contact__info'>
-                        <i className="uil uil-map-marker contact__icon"></i>
+                        <Geo className="contact__icon" />
+
 
                         <div>
                             <h3 className='contact__title'>Location </h3>
@@ -37,26 +43,26 @@ const Contact = () => {
                 <form action='' className='contact__form grid'>
                     <div className='contact__inputs grid'>
                         <div className='contact__content '>
-                            <label for="" className='contact__label'>Name </label>
+                            <label htmlFor="" className='contact__label'>Name </label>
                             <input type='text' className='contact__input' />
                         </div>
                         <div className='contact__content '>
-                            <label for="" className='contact__label'>Email </label>
+                            <label htmlFor="" className='contact__label'>Email </label>
                             <input type='email' className='contact__input' />
                         </div>
                     </div>
                     <div className='contact__content '>
-                        <label for="" className='contact__label'>Project </label>
+                        <label htmlFor="" className='contact__label'>Project </label>
                         <input type='text' className='contact__input' />
                     </div>
                     <div className='contact__content '>
-                        <label for="" className='contact__label'>Message </label>
+                        <label htmlFor="" className='contact__label'>Message </label>
                         <textarea className='contact__input' rows='7' cols="0" />
                     </div>
                     <div>
                         <a href='abdulkhamidovakbarjon@gmail.com' className='button button--flex '>
                             Send Message
-                            <i className="uil uil-message button__icon"></i>
+                            <Send className=" button__icon" style={{ transform: "rotate(45deg)" }}></Send>
                         </a>
                     </div>
                 </form>

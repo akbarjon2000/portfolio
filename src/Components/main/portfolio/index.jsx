@@ -1,5 +1,7 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
+import { ReactComponent as Arrow } from "../../../assets/icons/arrow-right.svg"
+import { ReactComponent as Send } from "../../../assets/icons/send.svg"
 
 // Import Swiper styles
 import "swiper/css";
@@ -32,7 +34,7 @@ const Portfolio = () => {
                         <a href='#' className='button button--flex button--small portfolio__button'>
 
                             Demo
-                            <i className="uil uil-arrow-right button__icon"></i>
+                            <Arrow className="t button__icon"></Arrow>
                         </a>
                     </div>
                 </SwiperSlide>
@@ -75,7 +77,7 @@ const Portfolio = () => {
                             <p className='project__description'>Contact me now and hire one of the best developers ;)</p>
                             <a href='#contact' className='button button--flex button--white'>
                                 Contact me
-                                <i class="uil uil-message project__icon button__icon"></i>
+                                <Send className=" button__icon" style={{ transform: "rotate(45deg)" }}></Send>
                             </a>
                         </div>
                         <img src='./photo4.png' alt='alt' className='project__img' />

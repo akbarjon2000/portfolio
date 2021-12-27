@@ -3,14 +3,14 @@ import { Skills } from './style';
 import { nanoid } from "nanoid"
 const MySkills = ({ value }) => {
     const [show, setShow] = useState(false)
-    const [id, setId] = useState(null);
-    console.log(id);
-    const onShow = (id) => {
+    // const [id, setId] = useState(null);
+
+    const onShow = () => {
         setShow(!show);
-        setId(id)
+        // setId(id)
     }
     return (
-        <Skills show={show} className='skills__content' onClick={() => onShow(value.id)}>
+        <Skills show={show} className='skills__content' onClick={onShow}>
             <div className='skills__header' style={{ marginBottom: "20px" }}>
                 <value.Icon className="skills__icon" />
                 <h1 className='skills__title'>{value.title}</h1>

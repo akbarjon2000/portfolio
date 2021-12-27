@@ -1,6 +1,11 @@
 import React from 'react'
 import { Container } from './style'
-
+import { ReactComponent as Linkedin } from "../../../assets/icons/link.svg"
+import { ReactComponent as Drbl } from "../../../assets/icons/dribble.svg"
+import { ReactComponent as Git } from "../../../assets/icons/git.svg"
+import { ReactComponent as Send } from "../../../assets/icons/send.svg"
+import { ReactComponent as Mouse } from "../../../assets/icons/mouse.svg"
+import { ReactComponent as Down } from "../../../assets/icons/arrow-down-solid.svg"
 const Home = () => {
     return (
         <Container>
@@ -9,13 +14,13 @@ const Home = () => {
                     <div className='home__content grid'>
                         <div className='home__social'>
                             <a href='https://www.linkedin.com/in/akbarjon-abdulkhamidov-4181a2225/' target="_blank" className='home__social-icon'>
-                                <i className="uil uil-linkedin-alt"></i>
+                                <Linkedin />
                             </a>
                             <a href='https://dribbble.com/Abdulkhamidov' target="_blank" className='home__social-icon'>
-                                <i className="uil uil-dribbble"></i>
+                                <Drbl />
                             </a>
                             <a href='https://github.com/akbarjon2000' target="_blank" className='home__social-icon'>
-                                <i className="uil uil-github-alt"></i>
+                                <Git style={{ width: "20px" }} />
                             </a>
                         </div>
                         <div className='home__img'>
@@ -37,19 +42,19 @@ const Home = () => {
                         </div>
 
                         <div className='home__data'>
-                            <h className='home__title'>Hi, I am Akbarjon</h>
+                            <h1 className='home__title'>Hi, I am Akbarjon</h1>
                             <h3 className='home__subtitle'>Front End Developer</h3>
                             <p className='home__description'> High level in web design and development knowledge, producing quality work.</p>
                             <a href='#contact' className='button button--flex'>Contact Me
-                                <i className="uil uil-message button__icon"></i>
+                                <Send className="button__icon" style={{ fontWeight: "700", transform: "rotate(45deg)" }} />
                             </a>
                         </div>
                     </div>
                     <div className='home__scroll'>
                         <a href='#about' className='home__scroll-button button--flex'>
-                            <i className="uil uil-mouse-alt home__scroll-mouse"></i>
-                            <span className='home__scroll-name'>Scroll down</span>
-                            <i className="uil uil-arrow-down home__scroll-arrow"></i>
+                            <Mouse className="home__scroll-mouse" style={{ fontSize: "50px" }} />
+                            <span className='home__scroll-name' style={{ margin: "0 5px 0 5px" }}>Scroll down</span>
+                            <Down className="home__scroll-arrow" style={{ width: "16px" }} />
                         </a>
                     </div>
                 </div>

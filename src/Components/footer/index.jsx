@@ -1,5 +1,7 @@
 import React from 'react'
-
+import { ReactComponent as Teleg } from "../../assets/icons/teleg.svg"
+import { ReactComponent as Insta } from "../../assets/icons/insta.svg"
+import { ReactComponent as Twitter } from "../../assets/icons/twitter.svg"
 const Footer = () => {
     return (
         <>
@@ -24,13 +26,13 @@ const Footer = () => {
                         </ul>
                         <div className='footer__socials'>
                             <a className='footer__social' href='https://telegram.org/'>
-                                <i className="uil uil-telegram"></i>
+                                <Teleg style={{ width: "20px" }} />
                             </a>
                             <a className='footer__social' href='https://www.instagram.com/akbarjonabdulkhamidov/'>
-                                <i className="uil uil-instagram"></i>
+                                <Insta style={{ width: "20px" }} />
                             </a>
                             <a className='footer__social' href='https://twitter.com/Akbarjo18812608'>
-                                <i class="uil uil-twitter-alt"></i>
+                                <Twitter style={{ fill: "#fff" }} />
                             </a>
                         </div>
                     </div>
