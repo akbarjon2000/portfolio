@@ -263,12 +263,15 @@ img {
   border-radius: 0.5rem;
   justify-self: center;
   align-self: center;
-  background-image: url(https://cdn.pixabay.com/photo/2020/06/15/14/59/dandelion-5302188__340.jpg);
+  background-image: url(./assets/images/myPhoto.png);
   background-position: center;
   display: flex;
   align-items: flex-end;
   justify-content: right;
   background-size: cover;
+}
+.myPhoto {
+  border-radius: 0.5rem !important;
 }
 .about__description {
   text-align: center;
@@ -546,6 +549,7 @@ img {
 /*==================== CONTACT ME ====================*/
 .contact__container {
   row-gap: 3rem;
+  margin: 0 auto !important;
 }
 .contact__info {
   display: flex;
@@ -798,7 +802,12 @@ img {
   }
   .about__image {
     width: 340px;
-    height: fit-content;
+    height: 340px;
+  }
+  .myPhoto {
+    width: 340px !important;
+    height: 340px;
+    border-radius: 0.5rem !important;
   }
   .about__description {
     text-align: initial;
@@ -909,8 +918,8 @@ img {
   .services__container {
     grid-template-columns: repeat(2, 338px);
   }
-  .nav__menu {
-    margin-left: auto;
+  .nav__list {
+    margin-left: auto !important;
   }
   .nav {
     width: 1300px !important;

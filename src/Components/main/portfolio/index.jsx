@@ -28,7 +28,7 @@ const Portfolio = () => {
                     <img src='./Maxsulotlar.png' alt='imgae' className='portfolio__img' />
                     <div className='portfolio__data'>
                         <h3 className='portfolio__title'>Modern Website</h3>
-                        <p className='portfolio__description'>Website for fast food delivery with amazing GUI and good functionnality for the end-users</p>
+                        <p className='portfolio__description'>Website for fast food delivery with amazing GUI and good functionality for the end-users</p>
                         <a href='https://fastfoodakbarjon.netlify.app/' className='button button--flex button--small portfolio__button'>
                             Demo
                             <Arrow className=" button__icon"></Arrow>
@@ -36,7 +36,22 @@ const Portfolio = () => {
                     </div>
                 </SwiperSlide>
 
-                {/* <<<<<<<<<<<<<<<<<<PORTFOLIO CONTENT 1>>>>>>>>>>>>>>> */}
+                {/* <<<<<<<<<<<<<<<<<<PORTFOLIO CONTENT 2>>>>>>>>>>>>>>> */}
+
+                <SwiperSlide className='portfolio__content grid'>
+                    <img src='./todo.png' alt='imgae' className='portfolio__img' />
+                    <div className='portfolio__data'>
+                        <h3 className='portfolio__title'>Microsoft todo</h3>
+                        <p className='portfolio__description'>Microsoft to do app is one of the most famous apps in terms of its functionality and brand design.</p>
+                        <a className='button button--flex button--small portfolio__button'>
+                            In Progress
+                            <Arrow className=" button__icon"></Arrow>
+                        </a>
+                    </div>
+                </SwiperSlide>
+
+
+                {/* <<<<<<<<<<<<<<<<<<PORTFOLIO CONTENT 3>>>>>>>>>>>>>>> */}
 
                 <SwiperSlide className='portfolio__content grid'>
                     <img src='./wallet.png' alt='imgae' className='portfolio__img' />
@@ -52,14 +67,14 @@ const Portfolio = () => {
                     </div>
                 </SwiperSlide>
 
-                {/* <<<<<<<<<<<<<<<<<<PORTFOLIO CONTENT 2>>>>>>>>>>>>>>> */}
+                {/* <<<<<<<<<<<<<<<<<<PORTFOLIO CONTENT 4>>>>>>>>>>>>>>> */}
 
                 <SwiperSlide className='portfolio__content grid'>
-                    <img src='./Maxsulotlar.png' alt='imgae' className='portfolio__img' />
+                    <img src='./design.png' alt='imgae' className='portfolio__img' />
                     <div className='portfolio__data'>
-                        <h3 className='portfolio__title'>Online Store</h3>
-                        <p className='portfolio__description'>Website for fast food delivery with amazing GUI and good functionnality for the end-users</p>
-                        <a href='#' className='button button--flex button--small portfolio__button'>
+                        <h3 className='portfolio__title'>Branding Design</h3>
+                        <p className='portfolio__description'>Personal Website for implementing ideas in mind.</p>
+                        <a className='button button--flex button--small portfolio__button'>
 
                             Demo
                             <Arrow className=" button__icon"></Arrow>
@@ -67,12 +82,14 @@ const Portfolio = () => {
                         </a>
                     </div>
                 </SwiperSlide>
+
+
             </Swiper>
             <div className='project section'>
                 <div className='project__bg'>
                     <div className='project__container container grid'>
                         <div className='project__data'>
-                            <h2 className='project__title'>You need a Frontend Developer</h2>
+                            <h2 className='project__title'>You need a Frontend Developer ?</h2>
                             <p className='project__description'>Contact me now and hire one of the best developers ;)</p>
                             <a href='#contact' className='button button--flex button--white'>
                                 Contact me

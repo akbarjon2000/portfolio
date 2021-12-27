@@ -49,7 +49,7 @@ const Services = () => {
                                 </li>
                                 <li className='services__modal-service'>
                                     <Check className="services__modal-icon" />
-                                    <p>I develop the user interface.</p>
+                                    <p>Providing responsivness.</p>
                                 </li>
                                 <li className='services__modal-service'>
                                     <Check className="services__modal-icon" />
@@ -76,19 +76,19 @@ const Services = () => {
                             <ul className='services__modal-services grid'>
                                 <li className='services__modal-service'>
                                     <Check className="services__modal-icon" />
-                                    <p>I develop the user interface.</p>
+                                    <p>I create branding design.</p>
                                 </li>
                                 <li className='services__modal-service'>
                                     <Check className="services__modal-icon" />
-                                    <p>Web page development.</p>
+                                    <p>I use design libraries.</p>
                                 </li>
                                 <li className='services__modal-service'>
                                     <Check className="services__modal-icon" />
-                                    <p>I develop the user interface.</p>
+                                    <p>Providing ease for the end-users.</p>
                                 </li>
                                 <li className='services__modal-service'>
                                     <Check className="services__modal-icon" />
-                                    <p>I position your brand.</p>
+                                    <p>Code reusability.</p>
                                 </li>
                             </ul>
                         </div>

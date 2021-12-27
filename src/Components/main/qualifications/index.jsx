@@ -12,10 +12,10 @@ const Qualifications = () => {
             <span className='section-subtitle'>My personal journey</span>
             <div className='qualification__container container'>
                 <div className='qualification__tabs'>
-                    <div className='qualification__button button--flex' onClick={() => setActive(true)}>
+                    <div className='qualification__button button--flex' onClick={() => setActive(true)} style={{ cursor: "pointer" }}>
                         <Cap style={{ width: "1.8rem", fontWeight: "500", cursor: "pointer" }} />  Education
                     </div>
-                    <div className='qualification__button button--flex' onClick={() => setActive(false)}>
+                    <div className='qualification__button button--flex' onClick={() => setActive(false)} style={{ cursor: "pointer" }}>
                         <Case style={{ width: "1.8rem", fontWeight: "500", cursor: "pointer" }} /> Work
                     </div>
                 </div>
