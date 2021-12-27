@@ -13,18 +13,18 @@ const Home = () => {
             <div className='home__container container grid' style={{ width: "100% !important" }}>
                 <div className='home__content grid'>
                     <div className='home__social'>
-                        <a href='https://www.linkedin.com/in/akbarjon-abdulkhamidov-4181a2225/' target="_blank" className='home__social-icon'>
+                        <a href='https://www.linkedin.com/in/akbarjon-abdulkhamidov-4181a2225/' className='home__social-icon'>
                             <Linkedin />
                         </a>
-                        <a href='https://dribbble.com/Abdulkhamidov' target="_blank" className='home__social-icon'>
+                        <a href='https://dribbble.com/Abdulkhamidov' className='home__social-icon'>
                             <Drbl />
                         </a>
-                        <a href='https://github.com/akbarjon2000' target="_blank" className='home__social-icon'>
+                        <a href='https://github.com/akbarjon2000' className='home__social-icon'>
                             <Git style={{ width: "20px" }} />
                         </a>
                     </div>
                     <div className='home__img'>
-                        <svg className="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" className='home__blob'>
+                        <svg className="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" >
                             <mask id="mask0" mask-type="alpha">
                                 <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
         130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 

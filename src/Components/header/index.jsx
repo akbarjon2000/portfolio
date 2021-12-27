@@ -22,9 +22,7 @@ const Header = () => {
     const linkAction = () => {
         setActive(false);
     }
-    const onScroll = () => {
-        console.log("scrolled")
-    }
+
     return (
 
 
