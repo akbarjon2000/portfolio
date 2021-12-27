@@ -1,5 +1,4 @@
 import React from 'react'
-import { ReactComponent as Map } from "../../../assets/icons/map-marker.svg"
 import { ReactComponent as Send } from "../../../assets/icons/send.svg"
 import { ReactComponent as Tel } from "../../../assets/icons/tel.svg"
 import { ReactComponent as Email } from "../../../assets/icons/envelope.svg"
