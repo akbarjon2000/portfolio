@@ -752,6 +752,7 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
+
   body {
     margin: 0;
   }
@@ -766,7 +767,7 @@ img {
   }
   .header {
     top: 0;
-    height: fit-content;
+    height: 60px;
   }
   .header,
   .main,
@@ -783,8 +784,9 @@ img {
     display: none;
   }
   .nav__list {
-    display: flex;
-    column-gap: 2rem;
+    display: flex !important;
+    column-gap: 2rem !important;
+    margin-top: 15px;
   }
 
   .nav__menu {
@@ -918,12 +920,14 @@ img {
   .services__container {
     grid-template-columns: repeat(2, 338px);
   }
-  .nav__list {
+  /* .nav__list {
     margin-left: auto !important;
+  } */
+  .nav__menu {
+    position: absolute !important;
+    right: 2.5rem !important;
   }
-  .nav {
-    width: 1300px !important;
-  }
+
   .portfolio__content {
     column-gap: 5rem;
   }

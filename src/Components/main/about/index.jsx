@@ -25,16 +25,16 @@ const About = () => {
                     </p>
                     <div className='about__info'>
                         <div>
-                            <span className='about__info-title'>02+</span>
-                            <span className='about__info-name'>Team <br /> work</span>
+                            <span className='about__info-title'>03+</span>
+                            <span className='about__info-name'>IT Academy <br />Graduates</span>
                         </div>
                         <div>
                             <span className='about__info-title'>02+</span>
-                            <span className='about__info-name'>Team <br /> work</span>
+                            <span className='about__info-name'>Team <br /> Work</span>
                         </div>
                         <div>
-                            <span className='about__info-title'>02+</span>
-                            <span className='about__info-name'>Team <br /> work</span>
+                            <span className='about__info-title'>03+</span>
+                            <span className='about__info-name'>Personal and Real <br /> Projects</span>
                         </div>
                     </div>
                     <div className='about__buttons'>
