@@ -5,7 +5,7 @@ import Main from '../main'
 const Root = () => {
 
     return (
-        <div>
+        <div style={{ width: "100%" }}>
             <Header />
             <Main />
             <Footer />

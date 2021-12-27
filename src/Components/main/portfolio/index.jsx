@@ -7,9 +7,7 @@ import { ReactComponent as Send } from "../../../assets/icons/send.svg"
 import "swiper/css";
 import "swiper/css/navigation"
 import "swiper/css/pagination"
-
 import "./styles.css";
-
 
 // import Swiper core and required modules
 import SwiperCore, {
@@ -31,10 +29,9 @@ const Portfolio = () => {
                     <div className='portfolio__data'>
                         <h3 className='portfolio__title'>Modern Website</h3>
                         <p className='portfolio__description'>Website for fast food delivery with amazing GUI and good functionnality for the end-users</p>
-                        <a href='#' className='button button--flex button--small portfolio__button'>
-
+                        <a href='https://fastfoodakbarjon.netlify.app/' className='button button--flex button--small portfolio__button'>
                             Demo
-                            <Arrow className="t button__icon"></Arrow>
+                            <Arrow className=" button__icon"></Arrow>
                         </a>
                     </div>
                 </SwiperSlide>
@@ -42,14 +39,15 @@ const Portfolio = () => {
                 {/* <<<<<<<<<<<<<<<<<<PORTFOLIO CONTENT 1>>>>>>>>>>>>>>> */}
 
                 <SwiperSlide className='portfolio__content grid'>
-                    <img src='./Maxsulotlar.png' alt='imgae' className='portfolio__img' />
+                    <img src='./wallet.png' alt='imgae' className='portfolio__img' />
                     <div className='portfolio__data'>
-                        <h3 className='portfolio__title'>Brand Design</h3>
-                        <p className='portfolio__description'>Website for fast food delivery with amazing GUI and good functionnality for the end-users</p>
-                        <a href='#' className='button button--flex button--small portfolio__button'>
+                        <h3 className='portfolio__title'>Personal Wallet</h3>
+                        <p className='portfolio__description'>HTML CSS JavaScript web site for controlling personal wallets easily.</p>
+                        <a href='https://mywalletproject.netlify.app/' className='button button--flex button--small portfolio__button'>
 
                             Demo
-                            <i className="uil uil-arrow-right button__icon"></i>
+                            <Arrow className=" button__icon"></Arrow>
+
                         </a>
                     </div>
                 </SwiperSlide>
@@ -64,7 +62,8 @@ const Portfolio = () => {
                         <a href='#' className='button button--flex button--small portfolio__button'>
 
                             Demo
-                            <i className="uil uil-arrow-right button__icon"></i>
+                            <Arrow className=" button__icon"></Arrow>
+
                         </a>
                     </div>
                 </SwiperSlide>

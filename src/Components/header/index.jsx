@@ -1,5 +1,16 @@
 import React, { useState } from 'react'
 import { Container } from "./style"
+
+//ICONS:
+import { ReactComponent as Apps } from "../../assets/icons/apps.svg"
+import { ReactComponent as Home } from "../../assets/icons/house-door.svg"
+import { ReactComponent as About } from "../../assets/icons/person.svg"
+import { ReactComponent as Skill } from "../../assets/icons/file.svg"
+import { ReactComponent as Service } from "../../assets/icons/briefcase.svg"
+import { ReactComponent as Portfolio } from "../../assets/icons/image.svg"
+import { ReactComponent as Contact } from "../../assets/icons/send.svg"
+import { ReactComponent as Close } from "../../assets/icons/x.svg"
+
 const Header = () => {
     const [active, setActive] = useState(false)
     const onToggle = () => {
@@ -24,41 +35,41 @@ const Header = () => {
                     <ul className='nav__list grid'>
                         <li className='nav__item'>
                             <a href='#home' className='nav__link' onClick={linkAction}>
-                                <i className="nav__icon uil uil-estate"></i> Home
+                                <Home style={{ width: "30px" }} className="navIcon"></Home> Home
                             </a>
                         </li>
                         <li className='nav__item'>
                             <a href='#about' className='nav__link' onClick={linkAction}>
-                                <i className="nav__icon uil uil-user"></i> About
+                                <About className="navIcon"></About> About
                             </a>
                         </li><li className='nav__item'>
                             <a href='#skills' className='nav__link' onClick={linkAction}>
-                                <i className="nav__icon uil uil-file-alt"></i> Skills
+                                <Skill className="navIcon"></Skill> Skills
                             </a>
                         </li>
                         <li className='nav__item'>
                             <a href='#service' className='nav__link' onClick={linkAction}>
-                                <i className="nav__icon uil uil-briefcase-alt"></i> service
+                                <Service className="navIcon"></Service> service
                             </a>
                         </li>
                         <li className='nav__item'>
                             <a href='#portfolio' className='nav__link' onClick={linkAction}>
-                                <i className="nav__icon uil uil-scenery"></i> Portfolio
+                                <Portfolio className="navIcon"></Portfolio> Portfolio
                             </a>
                         </li>
                         <li className='nav__item'>
                             <a href='#contact' className='nav__link' onClick={linkAction}>
-                                <i className="nav__icon uil uil-message"></i> Contact me
+                                <Contact style={{ transform: "rotate(45deg)" }} className="navIcon"></Contact> Contact me
                             </a>
                         </li>
 
                     </ul>
-                    <i className="uil uil-times nav__close" id='nav-close' onClick={onClose}></i>
+                    <Close style={{ color: "black" }} className=" nav__close" id='nav-close' onClick={onClose}></Close>
                 </div>
                 <div className='nav__btns '>
                     {/* <i className="uil uil-moon change-theme"></i> */}
                     <div onClick={onToggle} className='nav__toggle' id='nav-toggle'>
-                        <i className="uil uil-apps"></i>
+                        <Apps className="app"></Apps>
                     </div>
                 </div>
             </nav>

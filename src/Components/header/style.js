@@ -72,6 +72,9 @@ export const Container = styled.div`
   color: var(--first-color);
 }
 .nav__close:hover {
-  color: var(--first-color-alt);
+  fill: var(--first-color-alt);
+}
+.app:hover{
+  fill:var(--first-color-alt);
 }
 `
