@@ -1,10 +1,24 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { ReactComponent as Send } from "../../../assets/icons/send.svg"
 import { ReactComponent as Tel } from "../../../assets/icons/tel.svg"
 import { ReactComponent as Email } from "../../../assets/icons/envelope.svg"
 import { ReactComponent as Geo } from "../../../assets/icons/geo-alt.svg"
-
+import emailjs from 'emailjs-com';
 const Contact = () => {
+
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_7tza7pj', 'template_jijvj4g', form.current, 'user_zUznyQ0PWIjHDBKcQOFtT')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+
+        e.target.reset();
+    }
     return (
         <div className='contact section' id="contact">
             <h2 className='contact__title ' style={{ textAlign: "center", fontSize: "25px", fontWeight: "800" }}>Contact me</h2>
@@ -25,7 +39,7 @@ const Contact = () => {
 
                         <div>
                             <h3 className='contact__title'>Email </h3>
-                            <p className='contact__subtitle'>abdulkhamidovakbarjon@gmail.com</p>
+                            <p className='contact__subtitle'>abdulkhamidovakbarjon2000@gmail.com</p>
                         </div>
                     </div>
 
@@ -39,32 +53,33 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <form action='' className='contact__form grid'>
+                <form ref={form} onSubmit={sendEmail} className='contact__form grid'>
                     <div className='contact__inputs grid'>
                         <div className='contact__content '>
                             <label htmlFor="" className='contact__label'>Name </label>
-                            <input type='text' className='contact__input' />
+                            <input type='text' className='contact__input' name='name' />
                         </div>
                         <div className='contact__content '>
                             <label htmlFor="" className='contact__label'>Email </label>
-                            <input type='email' className='contact__input' />
+                            <input type='email' className='contact__input' name='email' />
                         </div>
                     </div>
                     <div className='contact__content '>
                         <label htmlFor="" className='contact__label'>Project </label>
-                        <input type='text' className='contact__input' />
+                        <input type='text' className='contact__input' name='project' />
                     </div>
                     <div className='contact__content '>
                         <label htmlFor="" className='contact__label'>Message </label>
-                        <textarea className='contact__input' rows='7' cols="0" />
+                        <textarea className='contact__input' rows='7' cols="0" name='message' />
                     </div>
                     <div>
-                        <a href='abdulkhamidovakbarjon@gmail.com' className='button button--flex '>
+                        <button type='submit' style={{ border: "none", outline: "none" }} className='button button--flex '>
                             Send Message
                             <Send className=" button__icon" style={{ transform: "rotate(45deg)" }}></Send>
-                        </a>
+                        </button>
                     </div>
                 </form>
+
             </div>
         </div>
     )
