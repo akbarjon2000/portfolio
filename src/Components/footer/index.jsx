@@ -21,7 +21,7 @@ const Footer = () => {
                                 <a className='footer__link' href='#portfolio'>Portfolio</a>
                             </li>
                             <li>
-                                <a className='footer__link' href='#contact'>Conatactme</a>
+                                <a className='footer__link' href='#contact' style={{ display: "flex", minWidth: "100px", flexDirection: "row" }}>Conatact me</a>
                             </li>
                         </ul>
                         <div className='footer__socials'>

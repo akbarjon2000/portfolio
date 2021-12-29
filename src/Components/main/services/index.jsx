@@ -19,7 +19,7 @@ const Services = () => {
         setActive2(false)
     }
     return (
-        <Container active1={active1} active2={active2} className='services section ' id="service">
+        <Container active1={active1} active2={active2} className='services section' id="service">
             <h2 className='services-title'>Services</h2>
             <p className='services-subtitle' style={{ marginBottom: "3rem" }}>What I offer</p>
 

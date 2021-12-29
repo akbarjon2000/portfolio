@@ -4,9 +4,7 @@ import { ReactComponent as Download } from "../../../assets/icons/import.svg"
 
 const About = () => {
     return (
-        <Container id='about'>
-
-
+        <Container className='section' id='about'>
             <h2 className='section-title'>About me</h2>
             <span className='section-subtitle'>My Introduction</span>
             <div className='about__container container grid'>
@@ -16,7 +14,7 @@ const About = () => {
                 <div className='about__data'>
                     <p className='about__description'>
                         I am a front end developer with
-                        long experience in creating
+                        good ability and skills in creating
                         functional and beautiful web
                         sites. I often rely on my hard
                         working and creative personality
