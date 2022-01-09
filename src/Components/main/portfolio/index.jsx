@@ -43,7 +43,7 @@ const Portfolio = () => {
                     <div className='portfolio__data'>
                         <h3 className='portfolio__title'>Microsoft todo</h3>
                         <p className='portfolio__description'>Microsoft to do app is one of the most famous apps in terms of its functionality and brand design.</p>
-                        <a className='button button--flex button--small portfolio__button'>
+                        <a href='https://github.com/akbarjon2000/MicrosoftTodo' className='button button--flex button--small portfolio__button'>
                             In Progress
                             <Arrow className=" button__icon"></Arrow>
                         </a>
