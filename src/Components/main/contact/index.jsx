@@ -30,7 +30,7 @@ const Contact = () => {
 
                         <div>
                             <h3 className='contact__title'>Call </h3>
-                            <p className='contact__subtitle'>+82 10 9151 9002</p>
+                            <p className='contact__subtitle'>+82 10 2496 5221</p>
                         </div>
                     </div>
 
