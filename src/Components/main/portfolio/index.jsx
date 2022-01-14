@@ -74,11 +74,9 @@ const Portfolio = () => {
                     <div className='portfolio__data'>
                         <h3 className='portfolio__title'>Branding Design</h3>
                         <p className='portfolio__description'>Personal Website for implementing ideas in mind.</p>
-                        <a className='button button--flex button--small portfolio__button'>
-
-                            Demo
+                        <a href='#portfolio' className='button button--flex button--small portfolio__button'>
+                            Design
                             <Arrow className=" button__icon"></Arrow>
-
                         </a>
                     </div>
                 </SwiperSlide>
@@ -90,7 +88,7 @@ const Portfolio = () => {
                     <div className='project__container container grid'>
                         <div className='project__data'>
                             <h2 className='project__title'>You need a Frontend Developer ?</h2>
-                            <p className='project__description'>You can contact me in any method.</p>
+                            <p className='project__description'>I am ready to assist you in turning your projects<br /> into real business.</p>
                             <a href='#contact' className='button button--flex button--white'>
                                 Contact me
                                 <Send className=" button__icon" style={{ transform: "rotate(45deg)" }}></Send>

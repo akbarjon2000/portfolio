@@ -28,7 +28,7 @@ const Header = () => {
 
         <Container className='header scroll-header' id='header' active={active} >
             <nav className='nav container' >
-                <a href='#' className='nav__logo'>Akbarjon</a>
+                <a href='#home' className='nav__logo'>Akbarjon</a>
                 <div className='nav__menu' id='nav-menu' >
                     <ul className='nav__list grid'>
                         <li className='nav__item'>
