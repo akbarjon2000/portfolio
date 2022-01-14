@@ -90,7 +90,7 @@ const Portfolio = () => {
                     <div className='project__container container grid'>
                         <div className='project__data'>
                             <h2 className='project__title'>You need a Frontend Developer ?</h2>
-                            <p className='project__description'>Contact me now and hire one of the best developers ;)</p>
+                            <p className='project__description'>You can contact me in any method.</p>
                             <a href='#contact' className='button button--flex button--white'>
                                 Contact me
                                 <Send className=" button__icon" style={{ transform: "rotate(45deg)" }}></Send>
