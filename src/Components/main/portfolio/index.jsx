@@ -25,6 +25,17 @@ const Portfolio = () => {
             <Swiper cssMode={true} navigation={true} pagination={true} mousewheel={true} keyboard={true} className=' portfolio__container container mySwiper'>
                 {/* <<<<<<<<<<<<<<<<<<PORTFOLIO CONTENT 1>>>>>>>>>>>>>>> */}
                 <SwiperSlide className='portfolio__content grid'>
+                    <img src='./al_quran.png' alt='imgae' className='portfolio__img' />
+                    <div className='portfolio__data'>
+                        <h3 className='portfolio__title'>Al_Quran</h3>
+                        <p className='portfolio__description'>Demo of Al_Quran lets the users read, listen and understand the the meaning of Quran Holy book. </p>
+                        <a href='https://alquran-demo.netlify.app/' className='button button--flex button--small portfolio__button'>
+                            Demo
+                            <Arrow className=" button__icon"></Arrow>
+                        </a>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide className='portfolio__content grid'>
                     <img src='./Maxsulotlar.png' alt='imgae' className='portfolio__img' />
                     <div className='portfolio__data'>
                         <h3 className='portfolio__title'>Modern Website</h3>
@@ -42,9 +53,9 @@ const Portfolio = () => {
                     <img src='./todo.png' alt='imgae' className='portfolio__img' />
                     <div className='portfolio__data'>
                         <h3 className='portfolio__title'>Microsoft todo</h3>
-                        <p className='portfolio__description'>Microsoft to do app is one of the most famous apps in terms of its functionality and brand design.</p>
+                        <p className='portfolio__description'>Microsoft to do app is one of the most famous apps in terms of its functionality and brand design. API is not deployed yet so you can only see the source code!</p>
                         <a href='https://github.com/akbarjon2000/MicrosoftTodo' className='button button--flex button--small portfolio__button'>
-                            In Progress
+                            Git Hub
                             <Arrow className=" button__icon"></Arrow>
                         </a>
                     </div>
