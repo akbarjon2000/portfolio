@@ -61,6 +61,31 @@ const Portfolio = () => {
                     </div>
                 </SwiperSlide>
 
+                <SwiperSlide className='portfolio__content grid'>
+                    <img src='./shopify-store.png' alt='imgae' className='portfolio__img' />
+                    <div className='portfolio__data'>
+                        <h3 className='portfolio__title'>Shopify Store</h3>
+                        <p className='portfolio__description'>I built this store to learn the shopify app development in which shopify uses Liquid template language for development. As it is a real store it needs domain so you can check only its source code</p>
+                        <a href='https://github.com/akbarjon2000/OnlineStore-test' className='button button--flex button--small portfolio__button'>
+                            Git Hub
+                            <Arrow className=" button__icon"></Arrow>
+                        </a>
+                    </div>
+                </SwiperSlide>
+
+
+                <SwiperSlide className='portfolio__content grid'>
+                    <img src='./scandiweb-store.png' alt='imgae' className='portfolio__img' />
+                    <div className='portfolio__data'>
+                        <h3 className='portfolio__title'>Scandiweb store</h3>
+                        <p className='portfolio__description'>This project is the react version of shopify store. Of course it is totally different but it has the same and even more functions than shopify and it is totally written in class components. As i used grapghQl http endpoint you can check only the source code.</p>
+                        <a href='https://github.com/akbarjon2000/Scandiweb' className='button button--flex button--small portfolio__button'>
+                            Git Hub
+                            <Arrow className=" button__icon"></Arrow>
+                        </a>
+                    </div>
+                </SwiperSlide>
+
 
                 {/* <<<<<<<<<<<<<<<<<<PORTFOLIO CONTENT 3>>>>>>>>>>>>>>> */}
 
@@ -77,6 +102,7 @@ const Portfolio = () => {
                         </a>
                     </div>
                 </SwiperSlide>
+
 
                 {/* <<<<<<<<<<<<<<<<<<PORTFOLIO CONTENT 4>>>>>>>>>>>>>>> */}
 
